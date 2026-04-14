@@ -1,16 +1,31 @@
-# React + Vite
+# Professional Journey | Jornada Profissional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive, and bilingual portfolio timeline built with **React 18**, **Vite**, and **Tailwind CSS v4**. This project showcases a technical career path with a "Deep Dive" interactive feature to demonstrate expertise in architecture, engineering principles, and system-level troubleshooting.
 
-Currently, two official plugins are available:
+## 🚀 Technical Highlights | Destaques Técnicos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Tailwind CSS v4:** Utilizes the latest CSS-first configuration engine for ultra-fast styling and a modern "Dark Mode" aesthetic.
+- **Dynamic Localization (EN/PT-BR):** A custom state-driven internationalization system allowing real-time switching between English and Portuguese.
+- **Interactive UI & Animations:** Powered by **Framer Motion** for smooth scroll-reveal effects and accordion-style technical deep dives.
+- **Component-Driven Architecture:** Clean separation of concerns between data structures, UI components, and logic.
+- **Brand Integration:** Implementation of **React Icons** for a professional, unified iconography system.
 
-## React Compiler
+## 🛠️ The Stack | Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React 18
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS v4
+- **Icons:** React Icons (Lu / Fa sets)
+- **Animations:** Framer Motion
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── data.js           # Centralized localized content & dictionary
+│   ├── Timeline.jsx      # Main container & vertical line logic
+│   ├── TimelineItem.jsx  # Individual milestone cards, icons & animations
+│   └── Footer.jsx        # Social links & contact info
+├── App.jsx               # Global state, language selector & layout wrapper
+└── index.css             # Tailwind v4 entry point (@import "tailwindcss")
